@@ -4,6 +4,8 @@
 
 Fossil fuel combustion accounts for approximately 75% of global greenhouse gas emissions, making carbon dioxide the main driver of human-caused climate change. This analysis looks at CO2 emissions data from 1800 to 2023 across 40 countries that together produce over 90% of worldwide emissions. The dataset tracks output by country, fuel type (coal, oil, gas, cement), and includes metrics like per capita emissions and carbon intensity. This analysis is presented as if having been conducted in 2023, when all findings and data would have been current and recent.
 
+*This project was conducted in August 2025 and later uploaded to GitHub in December 2025.*
+
 Main questions addressed in this analysis:
 - How have worldwide emissions changed over time, and are we on track for climate targets?
 - Which countries emit the most? Who is improving, and who is worsening?
