@@ -47,15 +47,6 @@ The dataset is a single flat table with 4,988 records of annual emissions data.
 | gas_co2 | FLOAT | CO2 from gas |
 | cement_co2 | FLOAT | CO2 from cement |
 
-### Data Summary
-
-| Metric | Value |
-|--------|-------|
-| Total Records | 4,988 |
-| Countries | 40 |
-| Year Range | 1800-2023 |
-| Global CO2 (2022) | 32.9 billion tonnes |
-
 ---
 
 ## Executive Summary
