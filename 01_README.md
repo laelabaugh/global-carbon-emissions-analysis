@@ -303,9 +303,9 @@ Citation:
 
 ```
 ├── 01_README.md
-├── data
+├── data/
 │   └── 02_co2_emissions.csv
-├── sql
+├── sql/
 │   ├── 03_data_inspection.sql
 │   └── 04_analysis_queries.sql
 └── visualizations/
