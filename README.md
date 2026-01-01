@@ -19,8 +19,8 @@ Main questions addressed:
 
 **Provider:** Our World in Data
 
-SQL queries for data inspection can be found [here](03_data_inspection.sql).
-Analysis queries are available [here](04_analysis_queries.sql).
+SQL queries for data inspection can be found [here](/sql/03_data_inspection.sql).
+Analysis queries are available [here](/sql/04_analysis_queries.sql).
 
 ---
 
@@ -74,7 +74,7 @@ One trend stands out, which is that coal's share of emissions has grown since 19
 | Coal Share | 43% | Rising |
 | Top 3 Countries Share | 59% | China, US, India |
 
-![Executive Dashboard](05_executive_dashboard.png)
+![Executive Dashboard](/visualizations/05_executive_dashboard.png)
 
 ---
 
@@ -130,7 +130,7 @@ A small group of countries produces most of the world's CO2, which creates both 
 
 Because emissions are so concentrated, action from just ten nations could address nearly 80% of the problem. International cooperation with these nations is vital.
 
-![Country Analysis](06_country_analysis.png)
+![Country Analysis](/visualizations/06_country_analysis.png)
 
 ---
 
@@ -193,7 +193,7 @@ Coal remains the largest source of CO2. That is the core problem. Coal's share h
 
 Switching from coal to gas, as the US has done, helps reduce emissions but is not enough on its own. Real progress means moving from coal to low-carbon sources, especially in Asia where 70% of coal emissions originate.
 
-![Fuel Sources](07_fuel_sources.png)
+![Fuel Sources](/visualizations/07_fuel_sources.png)
 
 ---
 
@@ -230,7 +230,7 @@ Asia's growth has reshaped the geography of global emissions fundamentally.
 
 Reduction efforts that ignore Asia will have a limited impact, since the region now accounts for 60% of global output. So climate action must largely include Asia, specifically China and India, where emissions are growing the fastest. At the same time, wealthier regions with high per capita figures have room to cut further.
 
-![Regional Analysis](08_regional_analysis.png)
+![Regional Analysis](/visualizations/08_regional_analysis.png)
 
 ---
 
