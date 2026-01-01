@@ -297,15 +297,14 @@ Based on these findings, the following actions may help policymakers, investors,
 ## Limitations and Future Work:
 
 **Current Limitations:**
-- The dataset only covers from September 2016 to August 2018, and does not provide data into more recent trends.
-- 2016 data starts in September and 2018 data ends in August, so full year-over-year comparisons are not possible for all months.
-- There is no product cost data provided, so profit margins cannot be calculated in detail.
+- This is a point-in-time analysis from 1800 to 2023, and data is not provided for more recent years.
+- Historical data before 1950 is lacking for many countries.
+- No niche policy or regulatory data provided to correlate with emissions changes.
 
 **Future Enhancements:**
-- Create seller performance scoring based on delivery time and ratings.
-- Forecast future sales with time series modeling.
-- Delve into product relation/affinity analysis to find opportunities for cross-selling.
-- Include delivery route optimization analysis using geographical data.
+- Add emissions projections (ie. under different policy scenarios).
+- Include temperature and climate impact correlations.
+- Add renewable energy adoption data for more context.
 
 ---
 Citation:
