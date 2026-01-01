@@ -1,12 +1,13 @@
 # Global CO2 Emissions Analysis
 
-## Background and Overview
+## Project Background and Overview
 
 Fossil fuel combustion is the cause for approximately 75% of global greenhouse gas emissions, which makes carbon dioxide the leading driver of human-caused climate change. This analysis looks at CO2 emissions data from 1800 to 2023 across 40 countries that produce over 90% of worldwide emissions altogether. The dataset tracks output by country, fuel type (coal, oil, gas, cement), and includes metrics like per capita emissions and carbon intensity. This analysis is presented as if having been conducted in 2023, when all findings and data would have been current and recent.
 
 *This project was conducted between June and July 2025 and later uploaded to GitHub in December 2025.*
 
-Main questions addressed:
+### Key questions addressed:
+
 - How have worldwide emissions changed over time, and are we on track for climate targets?
 - Which countries emit the most? Who is improving, and who is worsening?
 - What fuel sources drive most of emissions growth?
@@ -90,7 +91,7 @@ Since 1950, global emissions have quadrupled from 7.1 to 32.9 billion tonnes. Gr
 - 1990-2010: +45% (China's rapid increase)
 - 2010-2022: +17% (slower but still positive)
 
-**Decadal Growth Rates:**
+**Growth Rates by Decade:**
 
 | Decade | Avg Annual CO2 | Growth vs Prior |
 |--------|---------------|-----------------|
@@ -292,12 +293,42 @@ Based on these findings, the following actions may help policymakers, investors,
 9. **Disclose and compare data.** Transparent carbon reporting lets companies compare and contrast against peers and track progress over time.
 
 ---
+
+## Limitations and Future Work:
+
+**Current Limitations:**
+- The dataset only covers from September 2016 to August 2018, and does not provide data into more recent trends.
+- 2016 data starts in September and 2018 data ends in August, so full year-over-year comparisons are not possible for all months.
+- There is no product cost data provided, so profit margins cannot be calculated in detail.
+
+**Future Enhancements:**
+- Create seller performance scoring based on delivery time and ratings.
+- Forecast future sales with time series modeling.
+- Delve into product relation/affinity analysis to find opportunities for cross-selling.
+- Include delivery route optimization analysis using geographical data.
+
+---
 Citation:
 
 1. UNFCCC. (2025). The Paris agreement. United Nations Climate Change. https://unfccc.int/process-and-meetings/the-paris-agreement
 
 ---
+## Technical Implementation
 
+### SQL Queries Reference
+
+The analysis was conducted using SQLite with the following query categories:
+
+| Query Type | Purpose | Key Functions |
+|------------|---------|---------------|
+| Global Overview | Emissions at key years, growth since 1990 | `CASE WHEN`, `MAX()`, percentage calculations |
+| Growth by Decade | Decade-over-decade change | `LAG()` window function, CTEs |
+| Top Emitters | Top 10 countries, concentration | `ORDER BY DESC`, `LIMIT`, subqueries |
+| Per Capita | Highest/lowest emitters, US vs Nigeria ratio | Filtering with `NOT IN`, `ROUND()` |
+| Fuel Sources | Coal/oil/gas mix, coal dependency by country | Percentage of total calculations |
+| Regional Analysis | Regional totals, Asia share change | `GROUP BY` region, `CASE WHEN` mapping |
+| Carbon Intensity | Most/least efficient economies | `ORDER BY` ratio, GDP filtering |
+| Historical Trends | Largest increases/decreases since 2000 | CTEs with year pivoting, `NULLIF()` |
 
 ### Repository Structure
 
