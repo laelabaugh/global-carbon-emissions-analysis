@@ -302,7 +302,7 @@ Citation:
 ### Repository Structure
 
 ```
-├── 01_README.md
+├── README.md
 ├── data/
 │   └── 02_co2_emissions.csv
 ├── sql/
