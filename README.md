@@ -2,7 +2,7 @@
 
 ## Project Background and Overview
 
-Fossil fuel combustion is the cause for approximately 75% of global greenhouse gas emissions, which makes carbon dioxide the leading driver of human-caused climate change. This analysis looks at CO2 emissions data from 1800 to 2023 across 40 countries that produce over 90% of worldwide emissions altogether. The dataset tracks output by country, fuel type (coal, oil, gas, cement), and includes metrics like per capita emissions and carbon intensity. This analysis is presented as if having been conducted in 2023, when all findings and data would have been current and recent.
+Fossil fuel combustion is the cause for approximately 75% of global greenhouse gas emissions, which makes carbon dioxide the leading driver of human-caused climate change<sup>1</sup>. This analysis looks at CO2 emissions data from 1800 to 2023 across 40 countries that produce over 90% of worldwide emissions altogether. The dataset tracks output by country, fuel type (coal, oil, gas, cement), and includes metrics like per capita emissions and carbon intensity. This analysis is presented as if having been conducted in 2023, when all findings and data would have been current and recent.
 
 *This project was conducted between June and July 2025 and later uploaded to GitHub in December 2025.*
 
@@ -92,7 +92,7 @@ Since 1950, global emissions have quadrupled from 7.1 to 32.9 billion tonnes. Gr
 | 2010s | 30.0 Bt | +18% |
 | 2020s | 32.6 Bt | +9% |
 
-Growth is decelerating, but emissions continue to rise. Any serious reduction effort would need to reverse this trend entirely. The Paris Agreement goal (refer to citation) to limit warming to 1.5°C requires emissions to decline 45% by 2030, which is a feat we are nowhere near to achieving. 
+Growth is decelerating, but emissions continue to rise. Any serious reduction effort would need to reverse this trend entirely. The Paris Agreement goal<sup>2</sup> to limit warming to 1.5°C requires emissions to decline 45% by 2030, which is a feat we are nowhere near to achieving. 
 
 ---
 
@@ -300,7 +300,8 @@ Based on these findings, the following actions may help policymakers, investors,
 ---
 Citation:
 
-1. UNFCCC. (2025). The Paris agreement. United Nations Climate Change. https://unfccc.int/process-and-meetings/the-paris-agreement
+1. Center for International Environmental Law. (2019) Fossel Fuels. https://www.ciel.org/issue/fossil-fuels/
+2. UNFCCC. (2025). The Paris agreement. United Nations Climate Change. https://unfccc.int/process-and-meetings/the-paris-agreement
 
 ---
 ## Technical Implementation
@@ -335,3 +336,7 @@ The analysis was conducted using SQLite with the following query categories:
     ├── 07_fuel_sources.png
     └── 08_regional_analysis.png
 ```
+
+### Data Source
+
+This analysis uses the [S&P 500 ESG Risk Ratings Dataset by Sustainalytics](https://www.kaggle.com/datasets/pritish509/s-and-p-500-esg-risk-ratings), available on Kaggle.
