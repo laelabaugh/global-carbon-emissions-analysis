@@ -298,7 +298,7 @@ Based on these findings, the following actions may help policymakers, investors,
 - Add renewable energy adoption data for more context.
 
 ---
-Citation:
+Citations:
 
 1. Center for International Environmental Law. (2019) Fossel Fuels. https://www.ciel.org/issue/fossil-fuels/
 2. UNFCCC. (2025). The Paris agreement. United Nations Climate Change. https://unfccc.int/process-and-meetings/the-paris-agreement
